@@ -1,0 +1,31 @@
+{
+  "name": "livraria-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --ext js,graphql",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Samuel-Nicolai/livraria-graphql.git"
+  },
+  "author": "Samuel-Nicolai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Samuel-Nicolai/livraria-graphql/issues"
+  },
+  "homepage": "https://github.com/Samuel-Nicolai/livraria-graphql#readme",
+  "dependencies": {
+    "apollo-server": "^2.9.8",
+    "dotenv": "^8.2.0",
+    "graphql": "^14.5.8",
+    "graphql-import": "^0.7.1",
+    "knex": "^0.20.1",
+    "mysql": "^2.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
