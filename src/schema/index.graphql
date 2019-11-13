@@ -1,3 +1,4 @@
 #import Query from 'Query.graphql'
 
 #import Category from 'Category.graphql'
+#import Book from 'Book.graphql'

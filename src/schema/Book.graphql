@@ -1,0 +1,10 @@
+type Book {
+    ISBN: String
+    title: String
+    description: String
+    price: Float
+    publisher: String
+    pubdate: String
+    edition: Int
+    pages: Int
+}
