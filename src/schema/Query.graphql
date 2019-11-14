@@ -3,4 +3,5 @@ type Query {
     category(id: Int!): Category
 
     books: [Book]
+    book(id: String!): Book
 }

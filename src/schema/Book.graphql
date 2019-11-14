@@ -7,4 +7,5 @@ type Book {
     pubdate: String
     edition: Int
     pages: Int
+    categories: [Category]
 }

@@ -7,7 +7,8 @@ const resolvers = require('./resolvers')
 
 const server = new ApolloServer({
     typeDefs: importSchema(schemaPath),
-    resolvers
+    resolvers,
+    tracing: true
 })
 
 server.listen().then(({url}) => {
