@@ -8,4 +8,5 @@ type Book {
     edition: Int
     pages: Int
     categories: [Category]
+    authors: [Author]
 }

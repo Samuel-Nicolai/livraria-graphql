@@ -2,3 +2,4 @@
 
 #import Category from 'Category.graphql'
 #import Book from 'Book.graphql'
+#import Author from 'Author.graphql'

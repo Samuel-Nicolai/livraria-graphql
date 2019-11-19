@@ -1,7 +1,13 @@
 type Query {
+    # Definindo as consultas de category
     categories: [Category]
     category(id: Int!): Category
 
+    # Definindo as consultas de book
     books: [Book]
     book(id: String!): Book
+
+    # Definindo as consultas de author
+    authors: [Author]
+    author(id: Int!): Author
 }

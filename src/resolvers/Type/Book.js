@@ -11,5 +11,16 @@ module.exports = {
             .where({
                 ISBN: book.ISBN
             })
+    },
+    authors(book) {
+        return db('bookauthors')
+            .join(
+                'bookauthorsbooks',
+                'bookauthors.AuthorID',
+                'bookauthorsbooks.AuthorID'
+            )
+            .where({
+                ISBN: book.ISBN
+            })
     }
 }
