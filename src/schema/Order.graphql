@@ -1,0 +1,6 @@
+type Order {
+    orderID: Int!
+    custID: Int!
+    orderdate: String! 
+    orderItens: [OrderItens]
+}

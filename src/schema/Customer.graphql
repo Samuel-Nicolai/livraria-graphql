@@ -1,0 +1,22 @@
+type Customer {
+    custID: Int
+    fname: String
+    lname: String
+    email: String
+    street: String
+    city: String
+    state: String
+    zip: String
+    orders: [Order]
+}
+
+input CustomerInput {
+    #custID: Int!
+    fname: String!
+    lname: String
+    email: String!
+    street: String
+    city: String
+    state: String
+    zip: String
+}

@@ -1,0 +1,6 @@
+type OrderItens {
+    orderID: Int!
+    ISBN: String!
+    qty: Int!
+    price: Float!
+}
