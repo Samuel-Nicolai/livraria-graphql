@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/Samuel-Nicolai/livraria-graphql#readme",
   "dependencies": {
-    "apollo-server": "^2.9.8",
+    "apollo-server": "^2.14.2",
     "dotenv": "^8.2.0",
     "graphql": "^14.5.8",
     "graphql-import": "^0.7.1",
